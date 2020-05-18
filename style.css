@@ -221,7 +221,7 @@ h5 {
 	height: 10px;
 }
 
-.navbar {
+.navbar2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -229,7 +229,7 @@ h5 {
 	height: 70px;
 }
 
-.logo{
+.logo2 {
 	padding: 20px;
 	height: 40px;
 }
