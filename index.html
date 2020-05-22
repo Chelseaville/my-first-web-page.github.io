@@ -4,10 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Chelsea Ville</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -20,8 +20,8 @@
 		<div class="line-light"></div>
 	</div>
 
-	<div class="navbar2">
-		<img src="images/logo.png" class="logo2">
+	<div class="navbar">
+		<img src="images/logo.png" class="logo">
 		<div class="links">
 		<a href="https://www.efap.com/ecole-de-communication" class="link">Ma formation</a>
 		<a href="https://www.facebook.com/Chelseavle" class="link">Mon profil facebook</a>
@@ -49,7 +49,7 @@
 	    <a href="" target="_blank" class="btn-black">Contactez-moi !</a>
 	    </div>
 	    <div class="cadre6">
-	    	<img src="images/moi.jpg" class="moi">
+	    <img src="images/moi.jpg" class="moi">
 	    </div>
 	</div>
 
@@ -120,6 +120,8 @@
 	<div class="cadre5">
 	<div class="cadre4">
 		<img src="images/orange.jpg" class="experience">
+		<br>
+		<br>
 		<h5>Stagiaire Communication Interne Orange France</h5>
 		<p><i>Novembre 2019 - Mars 2020</i></p>
 		<p>Participer à la rédaction du support d'information au quotidien à destination des responsables de boutique</p>
@@ -135,6 +137,8 @@
 
 	<div class="cadre4">
 		<img src="images/bnp.jpg" class="experience">
+		<br>
+		<br>
 		<h5>Conseillère en Solutions Budgétaires BNP Paribas</h5>
 		<p><i>Juin 2017 - Juin 2019</i></p>
 		<p>Gérer les clients particuliers débiteurs irréguliers</p>
@@ -150,6 +154,8 @@
 
 	<div class="cadre4">
 		<img src="images/matmut.jpg" class="experience">
+		<br>
+		<br>
 		<h5>Hôtesse d'Accueil Événementielle St Once</h5>
 		<p><i>Mai 2019 - Mai 2020</i></p>
 		<p>Accueillir, diriger et renseigner les visiteurs</p>
@@ -172,9 +178,35 @@
 	<img src="images/prod3.jpg" class="productions">
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Button trigger modal -->
+	<button type="button" class="btn-black" data-toggle="modal" data-target="#exampleModal">Contactez-moi !</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel">Contactez-moi !</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <div class="modal-body">
+    Et si c'était moi votre prochaine stagiaire ? Et si je pouvais vous apporter bien plus qu'une simple aide ? Et si j'étais une vraie collaboratrice sur qui vous pouviez compter ?
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Revenir à la page</button>
+ 	<button type="button" class="btn btn-secondary">Je veux cette stagiaire !</button>
+    </div>
+    </div>
+  	</div>
+	</div>
+	<br>
+	<br>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 

@@ -4,7 +4,7 @@ body {
 	background: #34495E;
 	color: black;
 } 
-
+ 
 .text-center {
 	text-align: center;
 }
@@ -95,7 +95,7 @@ h5 {
 	padding: 40px;
 	border-radius: 30px;
 	width: 300px;
-	height: 200px;
+	height: 300px;
 }
 
 .cadre4 {
@@ -105,13 +105,13 @@ h5 {
 	padding: 40px;
 	border-radius: 30px;
 	width: 300px;
-	height: 700px;
+	height: 750px;
 }
 
 .cadre5 {
 	background: white;
 	border: 5px;
-	margin: 100px;
+	margin: 90px;
 	padding: 30px;
 	border-radius: 30px;
 	text-align: center;
@@ -134,8 +134,8 @@ h5 {
 }
 
 .experience {
-	width: 300px;
-	height: 200px;
+	width: 200px;
+	height: 100px;
 	object-fit: cover;
 }
 
@@ -177,6 +177,7 @@ h5 {
 .btn-black:hover {
 	color: pink;
 	opacity: 0,7;
+	text-decoration: none;
 }
 
 .btn-pink {
@@ -221,15 +222,15 @@ h5 {
 	height: 10px;
 }
 
-.navbar2 {
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background: #FFE3F5;
-	height: 70px;
+	height: 100px;
 }
 
-.logo2 {
+.logo {
 	padding: 20px;
 	height: 40px;
 }
@@ -255,4 +256,5 @@ h5 {
 .link:hover {
 	color: pink;
 	opacity: 0,7;
+	text-decoration: none;
 }
