@@ -4,7 +4,7 @@ body {
 	background: #34495E;
 	color: black;
 } 
- 
+   
 .text-center {
 	text-align: center;
 }
@@ -47,7 +47,7 @@ h5 {
 }
 
 .banniere {
-	width: 1150px;
+	width: 1180px;
 	height: 350px;
 	align-items: center;
 
@@ -95,7 +95,7 @@ h5 {
 	padding: 40px;
 	border-radius: 30px;
 	width: 300px;
-	height: 300px;
+	height: 350px;
 }
 
 .cadre4 {
@@ -125,6 +125,16 @@ h5 {
 	margin: 100px;
 	padding: 30px;
 	border-radius: 30px;
+}
+
+.cadre7 {
+	background: white;
+	border: 5px;
+	margin: 10px;
+	padding: 40px;
+	border-radius: 30px;
+	width: 300px;
+	height: 275px;
 }
 
 .formation {
@@ -257,4 +267,50 @@ h5 {
 	color: pink;
 	opacity: 0,7;
 	text-decoration: none;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 25px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.footer {
+  background: #6F92A5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #FFE3F5;
+  opacity: 0.55;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
 }
